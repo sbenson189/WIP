@@ -1,0 +1,87 @@
+body {
+  margin: .5% 8% 1% 8%;
+}
+
+body #navBar {
+  background-color: #ff6600;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: table;
+  border-collapse: separate;
+  font-size: 15px;
+  padding: 0;
+  margin-bottom: 1px;
+}
+
+body #navBar i {
+  font-size: 20px;
+}
+
+body #navBar #hackerNewsLogo {
+  width: 18;
+  height: 18;
+  color: #ff6600;
+  border: 1px white solid;
+  background-color: white;
+}
+
+body #navBar #pageTitle {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body #navBar #news, body #navBar #past, body #navBar #comments, body #navBar #ask, body #navBar #show, body #navBar #jobs {
+  border-right: solid black 1px;
+  padding-right: 10px;
+  padding-left: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+body #navBar #submit {
+  padding-left: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+body #navBar #headerLogInButton, body #navBar #headerSignUpButton {
+  color: black;
+  text-decoration: none;
+}
+
+body #pageContentTable, body a {
+  color: red;
+}
+
+body div {
+  background-color: #f6f6ef;
+  width: 100%;
+}
+
+body div .writer {
+  color: silver;
+}
+
+body div .contributorInfo {
+  color: silver;
+  padding-left: 40px;
+}
+
+body div .hideButton {
+  border-left: solid silver 1px;
+  padding-left: 6px;
+  cursor: pointer;
+}
+
+body #logIn-modal, body #signUpModal {
+  display: none;
+  position: fixed;
+  left: 25%;
+  top: 25%;
+  width: 700px;
+  height: 75px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=css.css.map */

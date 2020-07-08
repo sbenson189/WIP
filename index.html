@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker or Snooze Clone</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <table id="navBar">
+        <tbody>
+            <tr>
+                <td>
+                    <a href="https://news.ycombinator.com/">
+                        <i id="hackerNewsLogo" class="fab fa-hacker-news-square"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="" id = "pageTitle">Hack Or Snooze</a>
+                    <a href="" id = "news">New</a>
+                    <a href="" id = "past">Past</a>
+                    <a href="" id = "comments">Comments</a>
+                    <a href="" id = "ask">Ask</a>
+                    <a href="" id = "show">Show</a>
+                    <a href="" id = "jobs">Jobs</a>
+                    <a href="" id = "submit">Submit</a>
+                </td>
+                <td> 
+                    <a href="" id="headerLogInButton">Log In</a> / <a href="" id="headerSignUpButton">Sign-Up</a>
+                </td>
+            </tr>
+            <tr id="PageBody">
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="pageContent">
+        <table id="pageContentTable">
+            <tr>
+                <td class="postLink">1. <i class="fas fa-star" class="favoriteStar"></i> <a href="http://"> 1:60 scale Boeing 777 made from manila folders (lucaiaconistewart.com)</a></td>
+                    <td class = "writer"><a href="http://">(medium.muz.li)</a></td>
+            </tr>
+            <td class="contributorInfo">
+                50 points by chha 6 hours ago <a class="hideButton">Hide</a>
+            </td>
+        </table>
+    </div>
+    <div id="modalContainer">
+    <div id="logIn-modal">
+        <h1 id="logInModalHeader"></h1>
+        <div class="modal-content">
+            <fieldset id="logInFieldSet">
+                <legend id = "question">Log In</legend>
+                <form action="submit" method="post">
+                    <input type="text" id="logInUsername" placeholder="username">
+                    <input type="password" id="logInpassword" placeholder="password">
+                    <button type="submit" id="modalLogInButton">log In</button>
+                </form>
+            </fieldset>
+            <i class="far fa-times-circle" id="loginCloseBtn">Close</i>
+        </div>
+    </div>
+        <div id="signUpModal">
+            <h1 id="SignUpModalHeader"></h1>
+            <div class="modal-content">
+                <fieldset id="signUpFieldSet">
+                    <legend id = "question">Sign-Up</legend>
+                    <form action="submit" method="post">
+                        <input type="text" id="signUpName" placeholder="name" required>
+                        <input type="text" id="signUpUsername" placeholder="username" required>
+                        <input type="password" id="signUpPassword" placeholder="password" required>
+                        <button type="submit" id="modalSignUpButton">sign-Up</button>
+                    </form>
+                </fieldset>
+                <i class="far fa-times-circle" id="signUpCloseBtn">Close</i>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="js2.js"></script>
+</body>
+</html>
